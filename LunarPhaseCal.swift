@@ -9,7 +9,10 @@
 import Foundation
 
 class LunarPhaseCal {
-    func moonPhaseNum() -> Double{
+   
+    private init() {}
+    
+    static func moonPhaseNum() -> Double{
         
         
         let date = Date()
